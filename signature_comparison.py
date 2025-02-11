@@ -1,4 +1,6 @@
-pip install opencv-python
+import os
+
+os.system("pip install opencv-python-headless streamlit numpy scikit-image pillow")
 import streamlit as st
 import cv2
 import numpy as np
